@@ -1,0 +1,75 @@
+body{
+  background-color: rgb(241, 225, 225);
+  color:rgb(35, 29, 29);
+  font-family: cursive;
+}
+
+.event{
+   height:50px;
+   border: 5px;
+   border-style: solid;
+   border-radius:20px;
+   box-shadow: 5px;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   font-weight: 400;
+   color:rgb(117, 23, 23);
+   padding-left:10px;
+   cursor:pointer;
+}
+
+.enter-date{
+  width:100px;
+  height:50px;
+  border: 5px;
+  border-style: solid;
+  border-radius:20px;
+  box-shadow: 5px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: 400;
+  color:rgb(117, 23, 23);
+  padding-left:10px;
+  cursor:pointer;
+}
+
+.start-time,.end-time{
+  height:50px;
+  border: 5px;
+  border-style: solid;
+  border-radius:20px;
+  box-shadow: 5px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: 400;
+  color:rgb(117, 23, 23);
+  padding-left:10px;
+  cursor:pointer;
+}
+
+.add-button{
+  width:150px;
+  height:50px;
+  border:none;
+  border-radius:20px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color:rgb(87, 18, 18);
+  background-color: rgb(209, 147, 60);
+  cursor:pointer;
+}
+
+.delete-button{
+  width:150px;
+  height:50px;
+  border:none;
+  border-radius:20px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color:rgb(87, 18, 18);
+  background-color: rgb(221, 70, 70);
+  cursor:pointer;
+}
+
+.js-display,.input-data{
+  margin-top:20px;
+  display:grid;
+  grid-template-columns: 200px 100px 100px 100px 100px;
+  column-gap:50px;
+  row-gap:20px;
+}
